@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.container{
+    margin: 50px 130px;
+    
+    
+    /* height: 100vh; */
+}
+
+h1{
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.heading{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;;
+    border-radius: 10px;
+}
+.heading p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.title{
+    padding: 120px;
+}
+.title a{
+    color: white;
+}
+
+.image{
+    
+}
+
+.btn{
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: ;
+    color: white;
+}
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.second-half{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.btn-section{
+width: 250px;
+height: 250px;
+border-radius: 10px;
+background-color: #161616;
+
+}
+.side-btn{
+    display: flex;
+   flex-direction: column;
+   padding: 20px 20px;
+  margin-bottom: 10px;
+   
+}
+
+.match-btn, .all-btn{
+    background-color: white;
+    color: #161616;
+}
+.transfer{
+    width: 223px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: #161616 5px 5px 15px;
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 16px;
+}
+
+.transfer-title{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.transfer p{
+    display: inline-block;
+}
+
+
+
+.details{
+    display: flex;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.blog-img{
+    width: 100%;
+}
+
+
+
+
+footer{
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 80px 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+
+/* Tablet styles */
+
+@media screen and (max-width: 834px){
+/* 
+    .second-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } */
+    h1{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .second-half{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .btn-section{
+     display: inline;
+     background-color: white;
+     display: flex;
+     flex-direction: row;
+    }
+    
+
+}
